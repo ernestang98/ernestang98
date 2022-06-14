@@ -1,0 +1,28 @@
+Error: Actions not permitted error
+Dev: Ernest Ang
+Date/Time: 2/2/2022, 1825
+Description: After implementing git into MDP folder, unable to edit items via SMB connection on MAC
+Hot-Fix: go to shared/, run `sudo chmod -R 777 MDP` on RPI
+Solution: None
+
+Error: Sudo python3 causes cv2 modulenotfounderror
+Dev: Ernest Ang
+Date/Time: 15/2/2022, 1323
+Description: cv2 is installed on non-root's python system path and not root's python system path
+Hot-Fix: sudo -E python3 main.py
+Solution: None
+
+Error: Android is not able to connect due to RFCOMM channel 2
+Dev: Ernest Ang
+Date/Time: 15/2/2022, 1323
+Description: None
+Hot-Fix: sudo killall rfcomm and re-run main.py
+Solution: None
+
+Error: Unable to start main.py due to Address already in use
+Dev: Ernest Ang
+Date/Time: 15/2/2022, 1323
+Description: None
+Hot-Fix: sudo lsof -i: 65432 and sudo kill the PID that's using the port
+Solution: None
+

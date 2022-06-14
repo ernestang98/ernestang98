@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/example"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/round_corner"
+        android:gravity="bottom"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp" />
+
+    <TableLayout
+        android:id="@+id/table_main"
+        android:layout_width="433sp"
+        android:layout_height="433sp"
+        android:background="@android:color/black"
+        android:padding="2sp"
+        app:layout_constraintBottom_toBottomOf="@+id/example"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="@+id/example"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"></TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="460dp"
+        android:layout_marginTop="110dp"
+        android:text="Robot Status"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/RobotStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="460dp"
+        android:layout_marginTop="140dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btnFastest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="200dp"
+        android:text="Fastest Path"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+    </Button>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        app:layout_constraintTop_toBottomOf="@+id/example">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:tabGravity="fill" />
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/btnAddObs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="450dp"
+        android:layout_marginTop="88dp"
+        android:text="Add Obstacle"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yLabel" />
+
+    <EditText
+        android:id="@+id/xField"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="0-19"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/xLabel"
+        app:layout_constraintTop_toBottomOf="@+id/btnFastest" />
+
+    <EditText
+        android:id="@+id/yField"
+        android:layout_width="71dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="0-19"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/yLabel"
+        app:layout_constraintTop_toBottomOf="@+id/xField" />
+
+    <TextView
+        android:id="@+id/xLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="64dp"
+        android:text="X:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFastest" />
+
+    <TextView
+        android:id="@+id/yLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="40dp"
+        android:text="Y:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xLabel" />
+
+    <TextView
+        android:id="@+id/dirLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="464dp"
+        android:layout_marginTop="36dp"
+        android:text="Dir:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yLabel" />
+
+    <Spinner
+        android:id="@+id/dirField"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/grey"
+        app:layout_constraintStart_toEndOf="@+id/dirLabel"
+        app:layout_constraintTop_toBottomOf="@+id/yField" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

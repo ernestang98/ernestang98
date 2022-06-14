@@ -1,0 +1,14 @@
+mode 0
+definition "x=10*u + 1;
+			y=10*v;
+			z=12*w + 10;"
+parameters 0 1 0 1 0 1
+resolution 20 20 20
+diffuseColor 1 1 1
+backgroundColor 0.1 0.8 0.9
+axesColor 0.45 0.1 0.55
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 1
+Timerange 0 1

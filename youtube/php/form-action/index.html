@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!doctype html>
+  <meta charset="utf-8">
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <header>
+    <h1>Internship Form</h1>
+    <p>Thank you for your application and interest! Enter the following details:</p>
+  </header>
+  <div id="bodyText">
+    <form id="theForm" action="./action.php" method="post">
+      <label for="name">Name: </label><br>
+      <input id="name" name="name" placeholder="name" type="text"><br><br>
+      <label for="email">Email: </label><br>
+      <input id="email" name="email" placeholder="email" type="text"><br><br>
+      <label for="age">Age: </label>
+      <input id="age" name="age" placeholder="age" type="text"><br><br>
+      <label for="job">Job Application: </label><br>
+      <select name="job" id="job">
+        <option value="-">Select an option</option>
+        <option value="frontend">Front-End Engineer</option>
+        <option value="backend">Back-End Engineer</option>
+        <option value="cybersecurity">Malware Analyst</option>
+        <option value="fullstack">Full Stack Developer</option>
+      </select><br><br>
+      <label id="gender">Gender: </label><br>
+      <input type="radio" name="gender" id="male" value="male"><label for="male">&nbsp Male&nbsp&nbsp</label>
+      <input type="radio" name="gender" id="female" value="female"><label for="female">&nbsp Female&nbsp&nbsp</label>
+      <input type="radio" name="gender" id="other" value="other"><label for="other">&nbsp Other</label><br><br>
+      <label>Other Interests:</label><br>
+      <input type="checkbox" name="interest" id="Front-End Engineer" value="Front-End Engineer">
+      <label for="Front-End Engineer">Front-End Engineer</label><br>
+      <input type="checkbox" name="interest" id="Back-End Engineer" value="Back-End Engineer">
+      <label for="Back-End Engineer">Back-End Engineer</label><br>
+      <input type="checkbox" name="interest" id="Malware-Analyst" value="Front-End Engineer">
+      <label for="Malware-Analyst">Malware Analyst</label><br>
+      <input type="checkbox" name="interest" id="Full-Stack-Developer" value="Back-End Engineer">
+      <label for="Full-Stack-Developer">Full Stack Developer</label><br><br>
+      <label for="textbox">Other Interests:</label><br>
+      <textarea name="textbox" id="textbox"></textarea><br><br><br><br>
+      <div class="container">
+        <a href="#" id ="button" class="btn" onclick=submitForm()>Submit</a>
+      </div>
+    </form>
+  </div>
+  <footer></footer>
+  <script src="./script.js"></script>
+</body>
+</html>

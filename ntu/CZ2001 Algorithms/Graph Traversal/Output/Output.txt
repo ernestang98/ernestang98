@@ -1,0 +1,28 @@
+
+Part A/B:
+
+For node 2, Shortest path length is: 2, Path is: 2 47 4 
+For node 3, Shortest path length is: 2, Path is: 3 76 7 
+For node 5, Shortest path length is: 3, Path is: 5 19 33 43 
+
+Part C:
+
+For node 1, path length to 1st nearest hospital is: 1
+Path is: 1 7 
+For node 1, path length to 2nd nearest hospital is: 4
+Path is: 1 7 55 45 65 
+
+
+For node 3, path length to 1st nearest hospital is: 2
+Path is: 3 76 7 
+For node 3, path length to 2nd nearest hospital is: 3
+Path is: 3 2 47 4 
+
+
+For node 5, path length to 1st nearest hospital is: 3
+Path is: 5 19 33 43 
+For node 5, path length to 2nd nearest hospital is: 3
+Path is: 5 73 24 11 
+
+
+

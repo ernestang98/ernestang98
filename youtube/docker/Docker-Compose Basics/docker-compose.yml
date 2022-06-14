@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  apiTEST:
+    image: api_server:0.1
+    container_name: api_server
+    build:
+      context: ./api_server
+      dockerfile: api_server.Dockerfile
+      # args:
+      #   - API_PORT=${API_SERVER_API_PORT}
+    command: chmod +x /usr/local/bin/docker-compose
+    command: /home/node/src/api_server.js
+    volumes:
+      - ./api_server/src:/home/node/src
+
+  web:
+    image: http_server:0.1
+    container_name: http_server
+    build:
+      context: ./http_server
+      dockerfile: http_server.Dockerfile
+      # args:
+      #   - HTTP_PORT=${HTTP_SERVER_HTTP_PORT}
+    environment:
+      - API_SERVER_URL=http://apiTEST:12345
+    ports:
+      - 8080:8888
+    command: /home/http_server_user/src/http_server.py
+    volumes:
+      - ./http_server/src:/home/http_server_user/src
+

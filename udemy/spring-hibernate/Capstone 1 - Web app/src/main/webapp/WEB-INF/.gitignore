@@ -1,0 +1,5 @@
+tomcat-servers/*
+**/.env
+**/hibernate.cfg.xml
+**/credential.properties
+dispatcher-servlet.xml

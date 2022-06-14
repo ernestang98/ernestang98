@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="classpath:coach.properties"/>
+
+    <bean id="myLoggerConfig" class="com.company.MyLoggerConfig" init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE" />
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+
+    <bean id="myFortuneService1"
+          class="com.company.HappyFortuneService">
+    </bean>
+    <bean id="myFortuneService2"
+          class="com.company.HealthyFortuneService">
+    </bean>
+    <bean id="myFortuneService3"
+          class="com.company.NewYearFortuneService">
+    </bean>
+
+
+    <bean id="myCoach0"
+          class="com.company.BadmintonCoach">
+    </bean>
+    <bean id="myCoach1"
+          class="com.company.BaseballCoach">
+        <constructor-arg ref="myFortuneService1"/>
+    </bean>
+    <bean id="myCoach2"
+          class="com.company.BowlingCoach">
+        <property name="fortuneService" ref="myFortuneService2"/>
+    </bean>
+    <bean id="myCoach3"
+          class="com.company.ProfessionalSwimmingCoach">
+        <property name="fortuneService" ref="myFortuneService3"/>
+        <property name="linkedIn" value="linkedin.com/in/professionalCoaches"/>
+        <property name="highestAward" value="1st place at Olympics"/>
+    </bean>
+    <bean id="myCoach4"
+          class="com.company.ProfessionalSwimmingCoach"
+          init-method="initializeMethod"
+          destroy-method="destroyMethod">
+        <property name="fortuneService" ref="myFortuneService3"/>
+        <property name="linkedIn" value="${foo.linkedIn}"/>
+        <property name="highestAward" value="${foo.highestAward}"/>
+    </bean>
+    <bean id="myCoach5"
+          class="com.company.ProfessionalSwimmingCoach"
+          scope="prototype"
+          init-method="initializeMethod"
+          destroy-method="destroyMethod">
+        <property name="fortuneService" ref="myFortuneService3"/>
+        <property name="linkedIn" value="${foo.linkedIn}"/>
+        <property name="highestAward" value="${foo.highestAward}"/>
+    </bean>
+
+
+</beans>

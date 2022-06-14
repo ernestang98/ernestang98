@@ -1,0 +1,14 @@
+mode 0
+definition "x=cos((pi)*v-(pi/2))*sin(2*pi*u - pi);
+			y=10*sin((pi)*v-(pi/2));
+			z=5.5*cos((pi)*v-(pi/2))*cos(2*pi*u - pi);"
+parameters 0 1 0 1 0 1
+resolution 30 30 30
+diffuseColor 1 1 1
+backgroundColor 0.1 0.8 0.9
+axesColor 0.45 0.1 0.55
+SpecularColor 0.4 0.1 0.3
+Transparency 0
+Shininess 1
+Timecycle 1
+Timerange 0 1

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">mdp34</string>
+    <string name="title_bluetooth">bluetooth</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="device_name">Nexus 5</string>
+    <string name="device_address">BC:F5:AC:33:38:CC</string>
+    <string name="device_status" />
+    <string name="paired_devices_label">Paired Devices</string>
+    <string name="available_devices_label">Available Devices</string>
+    <string name="refresh_devices_title">SCAN</string>
+    <string name="tab_text_1">Bluetooth</string>
+    <string name="tab_text_2">Message</string>
+    <string name="tab_text_3">Map</string>
+    <string name="tab_text_4">Controller</string>
+    <string-array name="dir_array">
+        <item>North</item>
+        <item>East</item>
+        <item>South</item>
+        <item>West</item>
+    </string-array>
+</resources>

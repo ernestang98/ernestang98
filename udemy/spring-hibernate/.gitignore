@@ -5,3 +5,4 @@ tomcat-servers/*
 **/credential.properties
 **/*.md.backup
 **/target
+**/.DS_Store

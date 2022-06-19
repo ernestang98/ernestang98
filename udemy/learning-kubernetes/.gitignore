@@ -1,0 +1,8 @@
+tomcat-servers/*
+**/.env
+**/hibernate.cfg.xml
+**/hibernate.cfg.m.2.m.xml
+**/credential.properties
+**/*.md.backup
+**/target
+**/.DS_Store

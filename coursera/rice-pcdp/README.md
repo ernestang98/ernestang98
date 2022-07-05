@@ -34,7 +34,7 @@ Course Outline: [https://www.coursera.org/specializations/pcdp](https://www.cour
 
 </br>
 
-### Multithreading in Java (not included in course but related):
+### Multithreading in Java (not directly covered in course but related):
 
 1. [Edureka Multithreading in Java YouTube Tutorial](https://www.youtube.com/watch?v=TCd8QIS-2KI)
 

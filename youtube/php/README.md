@@ -1,6 +1,6 @@
 ## Note:
 
-For all of the above projects, to run them, you need to set up XAMPP. Once you have set it up (depending on your OS), drag the project folder under the base directory of the XAMPP server (for me, I use a Mac (hence MAMPP) and so the base directory for me it is under `/htdocs`). Base directory is probably configurable, just Google/Stackoverflow. After that, run XAMPP, and simply access the PHP projects via the browser (e.g. http://localhost:8888/simple-rest-api/api/read.php). If needed, use API platforms such as postman to test the endpoints with different HTTP methods (e.g. POST, PUT, DELETE).
+For all of the above projects, to run them, you need to set up XAMPP. Once you have set it up (depending on your OS), drag the project folder under the base directory of the XAMPP server (for me, I use a Mac (hence MAMPP) and so the base directory for me it is under `/htdocs`). Base directory is probably configurable, just Google/Stackoverflow. After that, run XAMPP, and simply access the PHP projects via the browser (e.g. http://localhost:8888/simple-rest-api/api/read.php). If needed, use API testing platforms such as postman to test the endpoints with different HTTP methods (e.g. POST, PUT, DELETE).
 
 ## XAMPP Set Up:
 

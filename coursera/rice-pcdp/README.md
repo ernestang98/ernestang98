@@ -8,9 +8,7 @@ Course Outline: [https://www.coursera.org/specializations/pcdp](https://www.cour
 
 3. Course 3 - Distributed Programming in Java
 
-</br>
-
-### Basic differentiation:
+### Differentiation between Parallelism, Concurrency, and Distributed:
 
 1. Parallelism vs Concurrency
 
@@ -31,8 +29,6 @@ Course Outline: [https://www.coursera.org/specializations/pcdp](https://www.cour
 	- [More on Concurrency and Parallelism combinations](https://jenkov.com/tutorials/java-concurrency/concurrency-vs-parallelism.html) 
 
 	- [Similarity between Concurrency and Multithreading](https://www.quora.com/Is-multithreading-concurrent-or-parallel)
-
-</br>
 
 ### Multithreading in Java (not directly covered in course but related):
 

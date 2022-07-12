@@ -1,4 +1,4 @@
-### Simple ATM/Bank Application
+# Simple ATM/Bank Application
 
 Written in C# to learn basic C# syntax while implementing Object Oriented Programming 
 

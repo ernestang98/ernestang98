@@ -1,3 +1,16 @@
+# Net Ninja GraphQL Course found [here](https://www.youtube.com/playlist?list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f)
+
+### Basic GraphQL Concepts covered:
+
+- Queries
+
+- Mutation
+
+- GraphQL + MongoDB
+
+### Queries built:
+
+```
 {
     book(id: 1) {
         name,
@@ -69,3 +82,4 @@ mutation {
         }
     }
 }
+```

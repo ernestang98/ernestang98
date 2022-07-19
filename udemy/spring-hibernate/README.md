@@ -1,4 +1,4 @@
-## [Spring & Hibernate for Beginners (Includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
+# [Spring & Hibernate for Beginners (Includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
 
 ### Topics covered:
 
@@ -101,16 +101,19 @@
 - AOP (Aspectj)
 
   - [aspectj weaver 1.9.7](https://mvnrepository.com/artifact/org.aspectj/aspectjweaver/1.9.7)
+  
   - [Spring Framework 5.3.9](https://repo.spring.io/ui/native/release/org/springframework/spring/)
+  
   - Pick the releases with lots of downloads
 
 - Intellij Application Configuration
 
   1. If don't have configuration, click edit -> add configuration -> application 
+     
      - Working directory should be: `/path/to/src`
+     
      - Main class should be the name of your class with `main(String[] args)`
+     
      - If cannot then rebuild project, remove .idea folder
+     
      - https://stackoverflow.com/questions/10654120/error-could-not-find-or-load-main-class-in-intellij-ide
-
-
-

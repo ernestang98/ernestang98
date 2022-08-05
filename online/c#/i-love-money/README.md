@@ -10,9 +10,7 @@ Written in C# to learn basic C# syntax while implementing Object Oriented Progra
 
 3. dotnet new console
 
-4. drag all the files inside (except for obj, bin and ilovemoney.csproj)
+4. dotnet build
 
-5. dotnet build
-
-6. dotnet run
+5. dotnet run
 

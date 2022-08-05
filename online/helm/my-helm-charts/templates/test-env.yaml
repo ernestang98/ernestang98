@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Pod
+metadata:
+  name: envar-demo
+  labels:
+    purpose: demonstrate-envars
+spec:
+  containers:
+  - name: envar-demo-container
+    image: gcr.io/google-samples/node-hello:1.0
+    {{- if .Values.the_environment }}
+    env:
+    {{- range $i, $v := .Values.the_environment }}
+    - name: {{ $v.key }}
+      value: {{ $v.value }}
+    {{- end }}
+    {{- range .Values.the_environment_1 }}
+    - name: {{ .key }}
+      value: {{ .value }}
+    {{- end }}  
+    {{- with .Values.the_environment_2 }}
+    - name: {{ .key_7 }}
+      value: {{ .value_7 }}
+    - name: {{ .key_8 }}
+      value: {{ .value_8 }}
+    - name: {{ .key_9 }}
+      value: {{ .value_9 }}
+    {{- end }}  
+    {{- end }}

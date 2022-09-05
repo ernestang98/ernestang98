@@ -64,5 +64,8 @@ To see the full list of modules I took, click [here!](https://github.com/ernesta
 |CZ4001|Virtual and Augmented Reality|Unity, C#, SteamVR,</br>ARToolKit|
 ||[Save Gotham!](https://github.com/ernestang98/save-gotham)|Unity, C#, XR Interaction</br>Toolkit, Firebase|
 ||[The Shop](https://github.com/ernestang98/the-shop)|Unity, C#, ARCore,</br>Firebase, Stripe API,</br>Node.js, Heroku|
+|CZ4062|Computer Security (System Security)||
+|CZ4069|Concepts and Techniques for Malware Analysis|Flare VM|
 |CZ4171|Internet of Things: Communications and Networking||
 ||[Offloading AI Inference from IoT Device to Cloud](https://github.com/ernestang98/fullstack-ai)|Ionic (Angular), Nest.js,</br>Tensorflow, OpenCV,</br>RabbitMQ, MongoDB,</br>Docker, Cron Jobs|
+

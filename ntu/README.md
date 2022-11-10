@@ -65,7 +65,7 @@ To see the full list of modules I took, click [here!](https://github.com/ernesta
 ||[Save Gotham!](https://github.com/ernestang98/save-gotham)|Unity, C#, XR Interaction</br>Toolkit, Firebase|
 ||[The Shop](https://github.com/ernestang98/the-shop)|Unity, C#, ARCore,</br>Firebase, Stripe API,</br>Node.js, Heroku|
 |CZ4062|Computer Security (System Security)||
-|CZ4069|Concepts and Techniques for Malware Analysis|Flare VM|
+|CZ4069|Concepts and Techniques for Malware Analysis|FLARE VM|
 ||Static Analysis Assignment|loki.exe, floss.exe, olevba.exe|
 ||Memory Forensics Assignment|volatility|
 ||Dynamic Analysis Assignment|IDA Freeware, scdbg.exe|

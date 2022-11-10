@@ -66,9 +66,9 @@ To see the full list of modules I took, click [here!](https://github.com/ernesta
 ||[The Shop](https://github.com/ernestang98/the-shop)|Unity, C#, ARCore,</br>Firebase, Stripe API,</br>Node.js, Heroku|
 |CZ4062|Computer Security (System Security)||
 |CZ4069|Concepts and Techniques for Malware Analysis|Flare VM|
-||Assignment 1 - Static Analysis|loki.exe, floss.exe, olevba.exe|
-||Assignment 2 - Memory Forensics|volatility|
-||Assignment 3 - Dynamic Analysis|IDA Freeware, scdbg.exe|
+||Static Analysis Assignment|loki.exe, floss.exe, olevba.exe|
+||Memory Forensics Assignment|volatility|
+||Dynamic Analysis Assignment|IDA Freeware, scdbg.exe|
 |CZ4171|Internet of Things: Communications and Networking||
 ||[Offloading AI Inference from IoT Device to Cloud](https://github.com/ernestang98/fullstack-ai)|Ionic (Angular), Nest.js,</br>Tensorflow, OpenCV,</br>RabbitMQ, MongoDB,</br>Docker, Cron Jobs|
 

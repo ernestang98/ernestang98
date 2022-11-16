@@ -1,0 +1,33 @@
+<project name="Mobila" default="gen" basedir=".">
+	<property name="junit.output.dir" value="junit"/>
+	<property name="target" value="1.7"/>
+	<property name="source" value="1.7"/>
+	<property name="debuglevel" value="source,lines,vars"/>
+	<property name="lib.dir" value="lib" />
+	<taskdef name="jflex" classname="JFlex.anttask.JFlexTask" classpath="lib/jflex.jar"/>
+	<path id="Lab1.classPath">
+		<pathelement location="bin"/>
+		<pathelement location="lib/hamcrest-core-1.3.jar"/>
+		<pathelement location="lib/jflex.jar"/>
+		<pathelement location="lib/junit-4.13.1.jar"/>
+	</path>
+
+	<target name="clean">
+		<delete dir="gen"/>
+		<delete dir="src/lexer"/>
+		<delete dir="junit"/>
+		<delete dir="bin"/>
+		<delete dir="out"/>
+	</target>
+
+	<target name="lexer">
+		<jflex file="src/frontend/lexer.flex" outdir="gen/lexer" nobak="yes"/>
+	</target>
+
+	<target name="gen" depends="lexer">
+		<delete dir="src/lexer"/>
+		<copy todir="src">
+			<fileset dir="gen"/>
+		</copy>
+	</target>
+</project>

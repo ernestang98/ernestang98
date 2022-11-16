@@ -1,0 +1,31 @@
+<project name="PL/3007" default="parser" basedir=".">
+	<property name="junit.output.dir" value="junit"/>
+	<property name="target" value="1.7"/>
+	<property name="source" value="1.7"/>
+	<property name="debuglevel" value="source,lines,vars"/>
+	<property name="lib.dir" value="lib" />
+	<taskdef name="beaver" classname="beaver.comp.run.AntTask" classpath="lib/beaver-ant.jar"/>
+	<path id="Lab2.classPath">
+		<pathelement location="bin"/>
+		<pathelement location="lib/beaver-ant.jar"/>
+		<pathelement location="lib/beaver-rt.jar"/>
+	</path>
+	<target name="clean">
+		<delete dir="gen/parser"/>
+		<delete dir="src/lexer"/>
+		<delete dir="junit"/>
+		<delete dir="bin"/>
+		<delete dir="out"/>
+		<delete dir="src/parser"/>
+	</target>
+	<target name="parser">
+		<mkdir dir="gen/parser"/>
+	    <beaver file="src/frontend/parser.beaver" destdir="gen"/>
+	</target>
+	<target name="before-test" depends="parser">
+		<delete dir="src/parser"/>
+		<copy todir="src">
+			<fileset dir="gen"/>
+		</copy>
+	</target>
+</project>

@@ -51,6 +51,7 @@ To see the full list of modules I took, click [here!](https://github.com/ernesta
 
 |Year 3|||
 |-|-|-|
+|CZ3001|Advanced Computer Architecture|Verilog, CUDA|
 |CZ3002|Advanced Software Engineering||
 ||[Hangout](https://github.com/ernestang98/hangout)|Flutter (Web & Mobile), Firebase,</br> Flutter Testing Libraries, Heroku|
 |CZ3003|Software System Analysis and Design||

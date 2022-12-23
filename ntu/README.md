@@ -58,6 +58,7 @@ To see the full list of modules I took, click [here!](https://github.com/ernesta
 |CZ3004|Multidisciplinary Design Project|Raspberry Pi, STM32F407, Java</br>Swing, Android (Java), OpenCV,</br>YOLO Framework|
 |CZ3005|Artificial Intelligence|Python, PyTorch, Matlab|
 |CZ3006|Net Centric Computing|Python, Java, Wireshark|
+|CZ3007|Compiler Techniques|Java, JFlex, Lex, Beaver, Soot|
 
 |Year 4|||
 |-|-|-|

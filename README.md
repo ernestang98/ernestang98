@@ -29,11 +29,11 @@ Business Analytics and Computer Science student at [Nanyang Technological Univer
 ![](https://img.icons8.com/fluency/64/r-project.png)
 ![](https://img.icons8.com/color/64/html-5--v1.png)
 ![](https://img.icons8.com/color/64/css3.png)
-![](https://img.icons8.com/color/64/javascript--v1.png)
+<!-- ![](https://img.icons8.com/color/64/javascript--v1.png)
 ![](https://img.icons8.com/color/64/typescript.png)
 ![](https://cdn4.iconfinder.com/data/icons/logos-3/568/php-logo-64.png)
 ![](https://img.icons8.com/color/64/kotlin.png)
-![](https://img.icons8.com/color/64/dart.png)
+![](https://img.icons8.com/color/64/dart.png) -->
 
 <br/>
 
@@ -59,7 +59,7 @@ Business Analytics and Computer Science student at [Nanyang Technological Univer
 ![](https://img.icons8.com/color/64/tensorflow.png)
 ![](https://cdn.icon-icons.com/icons2/2699/PNG/64/pytorch_logo_icon_170820.png)
 ![](https://cdn.icon-icons.com/icons2/2699/PNG/64/opencv_logo_icon_170887.png)
-![](https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png)
+<!-- ![](https://cdn1.iconfinder.com/data/icons/logotypes/32/github-64.png)
 ![](./images/shiny.png)
 ![](https://cdn.icon-icons.com/icons2/2415/PNG/64/docker_plain_logo_icon_146554.png)
 ![](https://cdn.icon-icons.com/icons2/2699/PNG/64/kubernetes_logo_icon_168359.png)
@@ -74,7 +74,7 @@ Business Analytics and Computer Science student at [Nanyang Technological Univer
 ![](https://img.icons8.com/color/64/mongodb.png)
 ![](https://cdn.icon-icons.com/icons2/2415/PNG/64/redis_original_logo_icon_146368.png)
 ![](https://img.icons8.com/color/64/firebase.png)
-
+ -->
 <br/>
 
 ## 🧑🏻‍💻&nbsp;&nbsp;&nbsp; What I'm currently working on
